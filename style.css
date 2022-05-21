@@ -136,6 +136,17 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
+.col-sm-4{
+    border-radius: 20px;
+    border-style: dotted;
+    margin:5px;
+}
+
+.opinion{
+    color:darkblue;
+    line-height: 1.42857143;
+}
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -677,7 +688,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -720,6 +731,7 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
+    display: flex;
 }
 
 h1 {
@@ -775,7 +787,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -1009,6 +1021,7 @@ h4 {
     }
     .voffset-lg {
         margin-top: 30px;
+        flex-direction: column;
     }
     form {
         padding: 5px;
