@@ -44,8 +44,14 @@ a:hover {
     padding-right: 0;
 }
 
+.container_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px;
 }
 
 .bloc-md {
@@ -54,6 +60,12 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+}
+
+.col-sm-6--bis {
+    text-align: center;
+    padding:20px;
+    font-weight: bold;
 }
 
 .bg-center,
@@ -78,16 +90,6 @@ a:hover {
 
 .bg-t-edge {
     background: top no-repeat;
-}
-
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 .texture-paper::before {
@@ -543,8 +545,8 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -553,7 +555,7 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    margin-right: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -563,6 +565,7 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    text-align:center;
 }
 
 a[data-lightbox]:hover img {
@@ -662,7 +665,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -713,11 +716,19 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding:5px;
 }
 
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color:darkblue;
+    text-align: center;
+    padding:10px;
+    margin:15px;
 }
 
 h3 {
@@ -788,6 +799,7 @@ h4 {
 
 .tc-white {
     color: #FFFFFF!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
@@ -805,7 +817,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: darkblue !important;
 }
 
 .ltc-atomic-tangerine {
@@ -1024,7 +1036,7 @@ h4 {
         flex-direction: column;
     }
     form {
-        padding: 5px;
+        padding: 10px;
     }
     .close-lightbox {
         display: inline-block;
