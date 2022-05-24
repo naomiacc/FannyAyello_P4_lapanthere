@@ -319,10 +319,11 @@ a:hover {
     line-height: 44px;
 }
 
-.navbar-brand img {
-    max-height: 200px;
+.navbar-brand-img {
     margin: 0 5px 0 0;
     display: inline;
+    height: 40px;
+    width: 100%;
 }
 
 .navbar-brand img[src$=svg] {
@@ -769,6 +770,8 @@ h4 {
 
 .portfolio-thumb {
     padding: 24px;
+    max-width: 400px;
+    height: 400px;
 }
 
 .portfolio-row {
