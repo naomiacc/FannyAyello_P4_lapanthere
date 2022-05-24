@@ -770,7 +770,7 @@ h4 {
 
 .portfolio-thumb {
     padding: 24px;
-    max-width: 400px;
+    width: 400px;
     height: 400px;
 }
 
@@ -995,7 +995,7 @@ h4 {
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        width: 100%;
     }
     .nav-invert .navbar-header {
         float: none;
